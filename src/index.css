@@ -6,17 +6,10 @@
 
 @layer base {
   @font-face {
-    font-family: 'Trender';
+    font-family: 'trender';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(/public/Trender.ttf) format('woff2');
+    src: url(/src/assets/Custom_Font/Trender.ttf) format('woff2');
   }
-}
-.font-roboto {
-  font-family: roboto;
-}
-body {
-  color: #040404;
-  font-family: Trender;
 }
